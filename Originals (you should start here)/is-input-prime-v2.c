@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <math.h>
 void main()
 {
-	int m,counter,logic=1;
+	int m,counter,logic=1,k;
+
 	printf("Welcome, please enter a positive number and I'll tell you if it's a prime number or not!!!");
 	scanf("%d",&m);
-
+	k=(int)sqrt(m);
 	if (m==0)
 	{
 		logic=2;
@@ -14,10 +16,12 @@ void main()
 	}
 	else 
 	{
-		for (counter=2;counter<m;counter++)
+		for (counter=2;counter<=k;counter++)
 		{
+			printf("counter:%d\n",counter);
 			if (m%counter==0)
 			{
+
 				logic=0;
 				break;
 			}

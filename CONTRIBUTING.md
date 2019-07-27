@@ -13,4 +13,6 @@ Of couse there's lots of ways you can make the code simpler, so go ahead (if you
 
 
 ### Submit a file
-You are definetely welcomed to submit your own C files! As long as they are outside the `Originals` folder that's fine. If you don't see a "Create new file" button, please make an issue about it, or if it already exist, go to that issue and type something like "I also have that issue". 
+You are definetely welcomed to submit your own C files! As long as they are outside the `Originals` folder that's fine. If you don't see a "Create new file" button, please fork this repo, create a new file in your forked repo and then push your new file to this repo. 
+
+Thanks for reading CONTRIBUTING.md!

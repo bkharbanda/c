@@ -1,4 +1,4 @@
-# C-Programs Beginners
+# C-Programs Beginner
 
 As a viewer, you can **detect issues or help code cleaning**. 
 Or, you can even add your own C files and make a pull request!

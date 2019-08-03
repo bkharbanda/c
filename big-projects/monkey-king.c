@@ -1,4 +1,6 @@
-// game explanation comming soon
+// game explanation (Work in progress): So there are n monkeys, 
+// and they are tryin to figure out who is the king. They start by sitting in
+// a circle and
 
 #include <stdio.h>
 void main()

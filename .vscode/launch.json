@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "big-projects/date-calculator.c",
+            "program": "",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

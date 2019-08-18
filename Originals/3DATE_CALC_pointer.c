@@ -1,3 +1,14 @@
+//
+//  main.c
+//  firstPrj
+//
+//  Created by HedyLee on 04/06/2019.
+//  Copyright © 2019 HedyLee. All rights reserved.
+//
+//  Last, grand C-programming language assingment!!!
+//  Date calc: days between dd/mm/yyyy and dd/mm/yyyy.
+//
+
 #include "stdio.h"
 #include "time.h"
 int isLeapYear(int year) {
@@ -244,3 +255,4 @@ void main()
     
     //  output result(int out)
     printf("\nDays of duration between: %d/%d/%d and %d/%d/%d is... %d!\n\nThank you for using this program --Date Calculator--\n\n\n",day1,month1,year1,day2,month2,year2,out);
+}

@@ -1,5 +1,5 @@
 # C-Programs Beginner
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  [![Made by Hedy](https://img.shields.io/badge/Made%20by-Hedy-green)](https://github.com/hedyhyry)
 
 As a viewer, you can **detect issues or help code cleaning**. 
 Or, you can even add your own C files and make a pull request!
@@ -7,9 +7,3 @@ Or, you can even add your own C files and make a pull request!
 Before contributing *please* read through the CONTRIBUTION.md file. Thank you!
 
 Have fun!
-
-
-
-
----
-*Created by [Hedyhyry](https://github.com/hedyhyry) (Hedy Li)*

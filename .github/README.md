@@ -3,9 +3,6 @@
 
 This repo contains most of all my C-files. Note that all of them are incredibly easy for an advanced C developer. For some more complicated files, they are in the 'big projects' folder.
 
-<br>
-<br>
-
 ### Contributing
 If you want to contribute, you can **detect issues or help code cleaning**. 
 Or, you can even add your own C files and make a pull request!

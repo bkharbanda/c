@@ -1,3 +1,14 @@
+//
+//  main.c
+//  firstPrj
+//
+//  Created by HedyLee on 04/06/2019.
+//  Copyright © 2019 HedyLee. All rights reserved.
+//
+//  Last, grand C-programming language assingment!!!
+//  Date calc: days between dd/mm/yyyy and dd/mm/yyyy.
+//
+
 #include "stdio.h"
 #include "time.h"
 int isLeapYear(int year) {
@@ -53,10 +64,7 @@ int checkDateRange(int year, int month, int day){
 void main()
 {
     int year1,month1,day1,year2,month2,day2,tempDay,tempMonth,tempYear;
-    int i,out,out1,out2,flag=0;
-    int choice;
-    int ret;
-    char c;
+    int i,choice,out,out1,out2,flag=0;
     
     time_t rawtime;
     struct tm * timeinfo;
@@ -65,33 +73,17 @@ void main()
     out=out1=out2=0;
     
     //  input
-    printf("--Date Calculator--\nThis program allows you to enter a day, month and a year, then another set of date, to calculate how many days are inbetween. Enjoy.\n\nStart by entering the first date, \nif you wan't to enter a custom date, enter '1', \nif you wan't to use today, enter '2'.\n\nEnter 1 or 2: ");
+    printf("--Date Calculator--\nThis program allows you to enter a day, month and a year, then another set of date, to calculate how many days are inbetween. Enjoy.\n\nStart by entering the first date, \nif you wan't to enter a custom date, enter '1', \nif you want to use today, enter '2'.\n\nEnter 1 or 2: ");
     
     do
     {
-        ret=scanf("%d",&choice);
-      
-        while (ret!=1)
-        {
-            while (c=getchar()!='\n');
-       
-            ret=scanf("%d",&choice);
-        }
-
+        scanf("%d",&choice);
         switch (choice) {
             case 1:
                 do
                 {
                     printf("Please your starting custom date (dd/mm/yyyy): ");
-                    ret=scanf("%d/%d/%d",&day1,&month1,&year1);
-                    
-                    while (ret!=3)
-                    {
-                        while (getchar()!='\n');
-                        
-                        ret=scanf("%d/%d/%d",&day1,&month1,&year1);
-                    }
-                    
+                    scanf("%d/%d/%d",&day1,&month1,&year1);
                     if (checkDateRange(year1, month1, day1)==0)
                     {
                         printf("The date you entered is NOT a date or was out of supporting range. So enter again.\n");
@@ -120,26 +112,12 @@ void main()
   
     do
     {
-        ret=scanf("%d",&choice);
-        while (ret!=1)
-        {
-            while (getchar()!='\n') ;
-            ret=scanf("%d",&choice);
-        }
-        
+        scanf("%d",&choice);
         switch (choice) {
             case 1:
                 do {
                     printf("Now your end custom date (dd/mm/yyyy): ");
-                    ret=scanf("%d/%d/%d",&day2,&month2,&year2);
-                    
-                    while (ret!=3)
-                    {
-                        while (getchar()!='\n');
-                        
-                        ret=scanf("%d/%d/%d",&day2,&month2,&year2);
-                    }
-                    
+                    scanf("%d/%d/%d",&day2,&month2,&year2);
                     if (checkDateRange(year2, month2, day2)==0) {
                         printf("The date you entered is NOT a date or was out of supporting range. So enter again\n");
                         flag=1;
@@ -161,7 +139,6 @@ void main()
                 printf("Please enter only 1 or 2, enter again here: ");
                 flag=1;
         }
-
     }while (flag) ;
     
     
@@ -243,4 +220,5 @@ void main()
     }
     
     //  output result(int out)
-    printf("\nDays of duration between: %d/%d/%d and %d/%d/%d is... %d!\n\nThank you for using this program --Date Calculator--\n\n\n",day1,month1,year1,day2,month2,year2,out);
+    printf("\nDays of duration between: %d/%d/%d and %d/%d/%d is... %d!\n\nThank you for using this program\n--Date Calculator--\n\n\n",day1,month1,year1,day2,month2,year2,out);
+}

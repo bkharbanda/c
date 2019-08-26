@@ -1,16 +1,10 @@
 # C-Programs Beginner
-[![Build Status](https://travis-ci.com/hedyhyry/c-programs-beginner.svg?branch=master)](https://travis-ci.com/hedyhyry/c-programs-beginner)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  [![Made by Hedy](https://img.shields.io/badge/Made%20by-Hedy-green)](https://github.com/hedyhyry)
 
-As a viewer, you can **detect issues or help code cleaning**. 
+This repo contains most of all my C-files. Note that all of them are incredibly easy for an advanced C developer. For some more complicated files, they are in the 'big projects' folder.
+
+### Contributing
+If you want to contribute, you can **detect issues or help code cleaning**. 
 Or, you can even add your own C files and make a pull request!
 
-Before you do anything *please* read through the CONTRIBUTION.md file. Thank you!
-
-
-
-
-
-
----
-*Created by [Hedyhyry](https://github.com/hedyhyry) (Hedy Li)*
+Before contributing *please* read through the CONTRIBUTION.md file. Thank you!

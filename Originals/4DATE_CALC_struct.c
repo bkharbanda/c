@@ -3,7 +3,7 @@
 //  firstPrj
 //
 //  Created by HedyLee on 04/06/2019.
-//  Copyright 2019 HedyLee. All rights reserved.
+//  Copyright © 2019 HedyLee. All rights reserved.
 //
 //  Last, grand C-programming language assingment!!!
 //  Date calc: days between dd/mm/yyyy and dd/mm/yyyy.
@@ -11,10 +11,6 @@
 
 #include "stdio.h"
 #include "time.h"
-struct date
-{
-	int day,month,year;
-};
 int isLeapYear(int year) {
     int leap;
     if ((year%4==0 && year%100!=0) || year%400==0) {
@@ -64,26 +60,14 @@ int checkDateRange(int year, int month, int day){
     
     return 1;
 }
-void swap(struct date *p_date1,struct date *p_date2)
+struct date
 {
-	struct date tempDate;
-	tempDate.day=p_date1->day;
-    tempDate.month=p_date1->month;
-    tempDate.year=p_date1->year;
-        
-    p_date1->day=p_date2->day;
-    p_date1->month=p_date2->month;
-    p_date1->year=p_date2->year;
-        
-    p_date2->day=tempDate.day;
-    p_date2->month=tempDate.month;
-    p_date2->year=tempDate.year;
-}
-
+	int day,month,year;
+};
 void main()
 {
 	//int year1,month1,day1,date2.year,date2.month,date2.day,tempDate.day,tempDate.month,tempDate.year;
-    struct date date1,date2;
+    struct date date1,date2,tempDate;
 	int i,out,out1,out2,flag=0;
     int choice;
     int ret;
@@ -204,17 +188,35 @@ void main()
     
     //  Check if date1 is smaller than date2
     //  If not, swap the two dates
+	//  Next lesson, use struct, pointer and func to reduce the number of lines.
     if (date1.year>date2.year) {
-        swap(&date1,&date2);
+        tempDate.day=date1.day;
+        tempDate.month=date1.month;
+        tempDate.year=date1.year;
+        
+        date1.day=date2.day;
+        date1.month=date2.month;
+        date1.year=date2.year;
+        
+        date2.day=tempDate.day;
+        date2.month=tempDate.month;
+        date2.year=tempDate.year;
     }
     
     if (date1.year==date2.year && date1.month>date2.month) {
-        swap(&date1,&date2);
+        tempDate.day=date1.day;
+        tempDate.month=date1.month;
         
+        date1.day=date2.day;
+        date1.month=date2.month;
+        
+        date2.day=tempDate.day;
+        date2.month=tempDate.month;
     }
-
-	if (date1.year==date2.year && date1.month==date2.month && date1.day>date2.day) {
-        swap(&date1,&date2);
+    if (date1.year==date2.year && date1.month==date2.month && date1.day>date2.day) {
+        tempDate.day=date1.day;
+        date1.day=date2.day;
+        date2.day=tempDate.day;
         
     }
     
@@ -249,10 +251,7 @@ void main()
         }
         out2+=date2.day;
         
-        out=out2-out1; // calc duration between first date and yr/jan/1st, 
-					   // calc duration between second date and yr/jan/1st. And now
-					   // minus the two results, we will therefore get the duration 
-					   // between date1 & date2. ONLY IF the years are the same.
+        out=out2-out1;
         
     }
     else
@@ -266,6 +265,6 @@ void main()
     }
     
     //  output result (int out)
-    printf("\nDays of duration between: %d/%d/%d and %d/%d/%d is... %d!\n\nThank you for using this program.\n--Date Calculator--\n\n\n",date1.day,date1.month,date1.year,date2.day,date2.month,date2.year,out);
+    printf("\nDays of duration between: %d/%d/%d and %d/%d/%d is... %d!\n\nThank you for using this program --Date Calculator--\n\n\n",date1.day,date1.month,date1.year,date2.day,date2.month,date2.year,out);
 }
 // line 265 here

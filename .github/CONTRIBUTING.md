@@ -1,9 +1,9 @@
 # I want to contribute too!
 
-Thanks for taking a moment to drop by. There is definetely some terms you should follow when contributing, and here they are:
+Thanks for taking a moment to drop by. There is definitely some terms you should follow when contributing, and here they are:
 
 ### Bug
-If you noticed an issue in any of the code files (even this file), you can either create an issue, or fix the bug and submit a pull request. 
+If you noticed an issue in any of the code files (even this file), you can either create an issue, or fix the bug and submit a pull request.
 
 *Note: When making commit, make sure you make your changes in the code file that is **outside** the `originals` folder. So that we can still keep original copies safely in the `originals` folder. But if admins or authorised contributors make a change, only they can straight commit inside the `originals` folder as this is a personal project but you can make a contribution.*
 

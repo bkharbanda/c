@@ -3,7 +3,9 @@
 
 This repo contains most of my C-files.
 
-Note that all of them are **incredibly easy** for an advanced C developer. For more complicated files, they are in the `big projects` folder.
+Note that all of them are **incredibly easy** for an advanced C developer.
+
+The more **complicated** programs (but still fairly easy for an pro), are in the `big projects` folder.
 
 ### Contributing
 If you want to contribute, you can **detect issues or help code cleaning**.

@@ -13,6 +13,6 @@ Of couse there's lots of ways you can make the code simpler, so go ahead (if you
 
 
 ### Submit a file
-You are definetely welcomed to submit your own C files! As long as they are outside the `Originals` folder that's fine. If you don't see a "Create new file" button, please fork this repo, create a new file in your forked repo and then push your new file to this repo with a pull request. [More info on creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
+You are definitely welcomed to submit your own C files! As long as they are outside the `Originals` folder that's fine. If you don't see a "Create new file" button, please fork this repo, create a new file in your forked repo and then push your new file to this repo with a pull request. [More info on creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
 
 Thanks for reading CONTRIBUTING.md!

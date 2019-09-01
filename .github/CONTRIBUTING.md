@@ -9,7 +9,7 @@ If you noticed an issue in any of the code files (even this file), you can eithe
 
 
 ### Cleaner Code
-Of couse there's lots of ways you can make the code simpler, so go ahead (if you can) make a commit and start a pull request. Again, same as above, make sure you make your commit in the file **outside** the `Originals` folder.
+Of course there's lots of ways you can make the code simpler, so go ahead (if you can) make a commit and start a pull request. Again, same as above, make sure you make your commit in the file **outside** the `Originals` folder.
 
 
 ### Submit a file

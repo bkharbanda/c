@@ -7,8 +7,9 @@ Note that all of them are **incredibly easy** for an advanced C developer.
 
 The more **complicated** programs (but still fairly easy for an pro), are in the `big projects` folder.
 
+
 ### Contributing
 If you want to contribute, you can **detect issues or help code cleaning**.
-Or, you can even add your own C files and make a pull request!
+Or, you can even add your own C files by forking this repo.
 
 Before contributing *please* read through the CONTRIBUTION.md file. Thank you!

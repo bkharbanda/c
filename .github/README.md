@@ -12,4 +12,4 @@ The more **complicated** programs (but still fairly easy for an pro), are in the
 If you want to contribute, you can **detect issues or help code cleaning**.
 Or, you can even add your own C files by forking this repo.
 
-Before contributing *please* read through the CONTRIBUTION.md file. Thank you!
+Before contributing *please* read through the [CONTRIBUTION.md](https://github.com/hedyhyry/c/.github/CONTRIBUTING.md/) file. Thank you!

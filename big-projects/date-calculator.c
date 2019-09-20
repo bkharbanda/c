@@ -158,7 +158,7 @@ void main()
                     printf("Now your end custom date (dd/mm/yyyy): ");
                     ret=scanf("%d/%d/%d",&date2.day,&date2.month,&date2.year);
 
-					// eat trash.
+					// eat 'trash'.
                     while (ret!=3) //not recieving 3 expected values
                     {
                         while (getchar()!='\n');

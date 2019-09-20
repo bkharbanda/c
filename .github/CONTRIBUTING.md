@@ -1,6 +1,6 @@
-# I want to contribute too!
+# Contributing
 
-Thanks for taking a moment to drop by. There is definitely some terms you should follow when contributing, and here they are:
+Thanks for taking a moment to drop by.
 
 ### Bug
 If you noticed an issue in any of the code files (even this file), you can either create an issue, or fix the bug and submit a pull request.
@@ -8,7 +8,7 @@ Refer to [WIKI page](https://github.com/hedyhyry/c/wiki/Bugs-on-C-code) for more
 
 
 ### Cleaning Code
-Of course there's lots of ways you can make the code simpler, so go ahead (if you can) make a commit and start a pull request. Again, you can refer to the corresponding WIKI page for more info
+Of course there's lots of ways you can make the code simpler, so go ahead (if you can) make a commit and start a pull request. Again, you can refer to the [corresponding WIKI page](https://github.com/hedyhyry/c/wiki/Cleaning-code) for more info
 
 ### Adding comment guides
 Here's an example:

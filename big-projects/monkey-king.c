@@ -1,21 +1,23 @@
-// game explanation (Work in progress): So there are n monkeys, 
+// game explanation (Work in progress): So there are 'n' monkeys,
 // and they are tryin to figure out who is the king. They start by sitting in
-// a circle and
+// a circle and count 'm' to the right, the monkey that we're on will be 'out'.
+// repeat the process until we're left with only one monkey. That monkey will
+// be the king.
+// this program outputs a log of who's out and the last one out is the king.
 
 #include <stdio.h>
 void main()
 {
 	int k=1,i,counter,m,n;//10 monkeys,counting to 3
 	printf("explanation comming soon");
-	
+
 	do//to prevent inputting a 0 or 100+
 	{
 		printf("\nn:");//input the n
 		scanf("%d",&n);
 		if(n<0 || n>100)
 		{
-			printf("ERROR!!! DIDN'T YOU READ THE EXPLANATION???");
-			printf("\nPLEASE INPUT AGAIN!!!");
+			printf("Out of supporting values, please input again.");
 		}
 	}while(n<0 || n>100);
 
@@ -30,7 +32,7 @@ void main()
 	{
 		monks[i]=1;
 	}
-	
+
 	counter=0;
 	while(counter<n)
 	{
@@ -43,7 +45,7 @@ void main()
 					monks[i]=0;//YOU'ER OUT
 					printf("%4d",i+1);//print out the 'out monkeys'
 					counter++;
-					k=1;//yes we ve counted to m, now 1
+					k=1;//yes we've counted to m, now 1
 				}
 				else
 				{
@@ -52,6 +54,6 @@ void main()
 			}
 		}
 	}
-	
+
 	printf(" <-- THIS IS THE KING!!!\n\n\n"); //last one out
 }

@@ -1,10 +1,10 @@
-#include <stdio.h> //printf and stuff
+#include <stdio.h> //printf, scanf and stuff
 #include <math.h> //sqrt stuff
 void main()
 {
 	int i,m,x,count=1,flag;
 	printf("Welcome, here are the first 100 prime numbers:\n\n");
-	
+
 	//x is for testing,count is for counting if there are 100
 	for (x=2;count<101;x++)
 	{
@@ -20,13 +20,13 @@ void main()
 			}
 
 		}
-		
+
 		//if flag hasn't changed, then out guess is right,
 		//it IS a prime number
 		if (flag==1)
 		{
 			printf("%4d",x); //now let's output this result
-			count++; //yay we found one (more), let's move on!	
+			count++; //yay we found one (more), let's move on!
 		}
 	}
 }

@@ -8,7 +8,7 @@ void main()
 		char name[30];
 		char sex;
 		int age;
-		struct bDate 
+		struct bDate
 		{
 			int y;
 			int m;
@@ -19,8 +19,8 @@ void main()
 	//struct student stu1={1,"Hedy Li Haiyue",'f',11,2007,10,4,"B-23-11 Amerin Residence, Selangor, Kuala Lumpur, Malaysia"};
 	struct student stu1;
 	stu1.num=1;
-	strcpy(stu1.name,"Hedy Li");
-	stu1.sex='f';
+	strcpy(stu1.name,"John Smith");
+	stu1.sex='m';
 	stu1.age=0;
 	stu1.birthday.y=2019;
 	stu1.birthday.m=8;

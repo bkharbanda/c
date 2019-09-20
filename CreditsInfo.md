@@ -1,5 +1,5 @@
 # Credits and other information
-This markdown document contains futher information about the repository such as credits, about me and other information.
+This markdown document contains further information about the repository such as credits, about me and other information.
 <br><br>
 
 ### Inpirational
@@ -9,6 +9,6 @@ But however, none of the C files are inspired or copied from that repository.
 ### Credits
 
 ### About
-This is my personal project and it contains files that are originally written by me when taking a C programming course. You might notice that these examples are seen everywhere as classic beginner files. 
+This is my personal project and it contains files that are originally written by me when taking a C programming course. You might notice that these examples are seen everywhere as classic beginner files.
 
 ### More information

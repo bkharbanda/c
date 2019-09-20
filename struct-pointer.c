@@ -14,6 +14,5 @@ void main()
 	strcpy(stu1.name,"Hedy Li Haiyue");
 	p->sex='f';
 	p->score=100.99;
-	printf("Student Number: %d\nName: %s\nSex: %c\nScore of recent test: %f\n\n\n"
-		,stu1.num,p->name,(*p).sex,stu1.score);
+	printf("Student Number: %d\nName: %s\nSex: %c\nScore of recent test: %f\n\n\n",stu1.num,p->name,(*p).sex,stu1.score);
 }

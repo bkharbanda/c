@@ -14,10 +14,8 @@ void main()
 	struct data arg;
 	arg.a=5;	arg.b=3;	arg.c=arg.a*
 		arg.b;
-	printf("arg.a: %d	arg.b: %d	arg.c: %d\n"
-		,arg.a,arg.b,arg.c);
+	printf("arg.a: %d	arg.b: %d	arg.c: %d\n",arg.a,arg.b,arg.c);
 	printf("Call Func()...\n\n");
 	func(&arg);
-	printf("arg.a: %d	arg.b: %d	arg.c: %d\n"
-		,arg.a,arg.b,arg.c);
+	printf("arg.a: %d	arg.b: %d	arg.c: %d\n",arg.a,arg.b,arg.c);
 }

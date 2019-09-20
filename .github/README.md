@@ -9,7 +9,12 @@ The more **complicated** programs (but still fairly easy for an pro), are in the
 
 
 ### Contributing
-If you want to contribute, you can **detect issues or help code cleaning**.
-Or, you can even add your own C files by forking this repo.
+If you want to contribute, you can 
 
-Before contributing *please* read through the [CONTRIBUTION.md](https://github.com/hedyhyry/c/blob/master/.github/CONTRIBUTING.md) file. Thank you!
+1. detect issues/bugs 
+2. help code cleaning
+3. add remarks/comments ([issue #10](https://github.com/hedyhyry/c/issues/10))
+4. add new files
+
+
+Before contributing *please* read through the [CONTRIBUTION.md](https://github.com/hedyhyry/c/blob/master/.github/CONTRIBUTING.md) file and wiki pages. Thank you!

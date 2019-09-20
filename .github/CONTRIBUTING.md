@@ -8,7 +8,7 @@ Refer to [WIKI page](https://github.com/hedyhyry/c/wiki/Bugs-on-C-code) for more
 
 
 ### Cleaning Code
-Of course there's lots of ways you can make the code simpler, so go ahead (if you can) make a commit and start a pull request. Again, you can refer to the corresponding WIKI page for more info
+Of course there's lots of ways you can make the code simpler, so go ahead (if you can) make a commit and start a pull request. Again, you can refer to the [corresponding WIKI page](https://github.com/hedyhyry/c/wiki/Cleaning-code) for more info
 
 ### Adding comment guides
 Here's an example:

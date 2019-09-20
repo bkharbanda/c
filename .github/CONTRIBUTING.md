@@ -1,6 +1,6 @@
-# I want to contribute too!
+# Contributing
 
-Thanks for taking a moment to drop by. There is definitely some terms you should follow when contributing, and here they are:
+Thanks for taking a moment to drop by.
 
 ### Bug
 If you noticed an issue in any of the code files (even this file), you can either create an issue, or fix the bug and submit a pull request.

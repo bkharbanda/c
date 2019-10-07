@@ -19,7 +19,7 @@ int counter; //creates a new variable
 
 
 ### Submit a file
-You are definitely welcomed to submit your own C files! As long as they are outside the `Originals` folder that's fine. If you don't see a "Create new file" button, please fork this repo, create a new file in your forked repo and then push your new file to this repo with a pull request. [More info on creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
+You are definitely welcomed to submit your own C files! If you don't see a "Create new file" button, please fork this repo, create a new file in your forked repo and then push your new file to this repo with a pull request. [More info on creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork)
 
 ### Format
 Please refer to the [wiki page](https://github.com/hedyhyry/c/wiki) for coding formats, thank you.

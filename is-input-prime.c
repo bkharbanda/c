@@ -6,10 +6,10 @@ void main()
 
 	printf("Welcome, please enter a positive number and I'll tell you if it's a prime number or not!!!");
 	scanf("%d",&m);
-	k=(int)sqrt(m);
+	k=(int)sqrt(m);   //to get square root
 	if (m==0)
 	{
-		logic=2;
+		logic=2;    
 	}else if (m==1)
 	{
 		logic=2;
@@ -19,7 +19,7 @@ void main()
 		for (counter=2;counter<=k;counter++)
 		{
 			printf("counter:%d\n",counter);
-			if (m%counter==0)
+			if (m%counter==0)    //checks if m is divisible by any number other than 1 and itself
 			{
 
 				logic=0;
